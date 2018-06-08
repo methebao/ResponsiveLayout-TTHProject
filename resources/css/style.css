@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/*------------------------------------*/
+/* BASE ELEMENT STYLES */
+/*------------------------------------*/
+/*----- Base Element Styles ------------*/
+
+html,
+body {
+  font-family: 'Lato', 'Arial', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #555;
+  background-color: #fafafa;
+}
+
+/*------------------------------------*/
+/* REUSABLE COMPONENTS */
+/*------------------------------------*/
+.container {
+  max-width: 1024px;
+  width: 90%;
+  margin: 0 auto;
+}
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+section {
+  padding: 3em 0;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+
+/*----- HEADINGS------------*/
+p {
+  line-height: 1.4;
+}
+/*----- LINKS------------*/
+a:link,
+a:visited {
+  color: #5c5c5c;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/*------------------------------------*/
+/* HEADER */
+/*------------------------------------*/
+.main-nav {
+  text-align: center;
+}
+.main-nav li {
+  text-align: center;
+  list-style: none;
+  background-color: #fff;
+  padding: 0.5em 0;
+  margin-bottom: 0.5em;
+}
+
+.name {
+  color: #505050;
+  margin: 1em auto;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*------------------------------------*/
+/* FOOTER */
+/*------------------------------------*/
+footer {
+  padding: 30px 0;
+}
+footer .container {
+  border-top: 1px solid #ccc;
+}
+footer .name h2 {
+  font-size: 1em;
+  float: left;
+  width: 50%;
+  margin-top: 0.2em;
+  text-align: left;
+}
+.footer-nav {
+  display: none;
+}
+.mobile-footer-nav a {
+  display: block;
+  text-align: right;
+}
+.mobile-footer-nav {
+  float: left;
+  width: 50%;
+  margin-top: 0.2em;
+}
+/*------------------------------------*/
+/* SECTION-HEADLINE */
+/*------------------------------------*/
+.avatar {
+  margin-bottom: 1em;
+}
+.avatar img {
+  width: 70%;
+}
+/*------------------------------------*/
+/* SECTION-PORTFOLIO */
+/*------------------------------------*/
+.section-portfolio {
+  background-color: #fff;
+}
+.section-portfolio ul {
+  list-style: none;
+}
+.portfolio-item img {
+  width: 100%;
+}
+.portfolio-item h3 {
+  margin: 1.5em 0 1em 0;
+}
+.portfolio-item p {
+  margin-bottom: 2em;
+}
