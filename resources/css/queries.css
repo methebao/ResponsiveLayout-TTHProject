@@ -1,0 +1,66 @@
+/*------------------------------------*/
+/* MEDIA QUERIES */
+/*------------------------------------*/
+@media (min-width: 768px) {
+  /*----- Header------------*/
+
+  .main-nav li {
+    display: inline-block;
+  }
+  .main-nav li a {
+    background-color: transparent;
+    padding: 0.8em 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  /*----- Headline------------*/
+  .avatar {
+    float: right;
+    width: 40%;
+  }
+  .info {
+    float: left;
+    width: 60%;
+    text-align: left;
+  }
+  /*----- Portfolio------------*/
+
+  .portfolio-list li {
+    display: inline-block;
+
+    margin-right: -4px;
+    vertical-align: top;
+  }
+  .portfolio-item {
+    width: 50%;
+    padding: 0 0.5em;
+  }
+  .portfolio-item:nth-child(2n + 1) {
+    padding-left: 0;
+  }
+  .portfolio-item:nth-child(2n) {
+    padding-right: 0;
+  }
+  /*----- Contact------------*/
+  .contact {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  .contact p {
+    padding: 0.5em 0;
+  }
+  /*----- Footer------------*/
+  .footer-nav {
+    display: block;
+    float: right;
+  }
+  .footer-nav li {
+    display: inline-block;
+    padding: 1.2em 1em;
+    text-transform: uppercase;
+  }
+  .mobile-footer-nav {
+    display: none;
+  }
+}

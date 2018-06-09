@@ -34,6 +34,9 @@ section {
   padding: 3em 0;
   text-align: center;
 }
+h1 {
+  margin: 0;
+}
 h2 {
   text-align: center;
   margin-bottom: 1.5em;
@@ -60,16 +63,23 @@ a:visited {
 .main-nav li {
   text-align: center;
   list-style: none;
+  margin-bottom: 0.5em;
+}
+.main-nav li a {
+  display: block;
   background-color: #fff;
   padding: 0.5em 0;
-  margin-bottom: 0.5em;
 }
 
 .name {
   color: #505050;
-  margin: 1em auto;
   font-weight: bold;
   text-align: center;
+  padding-top: 1em;
+}
+.name h1 {
+  padding: 0.5em;
+  font-size: 1.7em;
 }
 
 /*------------------------------------*/
@@ -85,8 +95,9 @@ footer .name h2 {
   font-size: 1em;
   float: left;
   width: 50%;
-  margin-top: 0.2em;
+  padding: 1.2em;
   text-align: left;
+  margin: 0;
 }
 .footer-nav {
   display: none;
@@ -94,11 +105,12 @@ footer .name h2 {
 .mobile-footer-nav a {
   display: block;
   text-align: right;
+  padding: 1.2em;
+  text-align: center;
 }
 .mobile-footer-nav {
-  float: left;
+  float: right;
   width: 50%;
-  margin-top: 0.2em;
 }
 /*------------------------------------*/
 /* SECTION-HEADLINE */
@@ -109,6 +121,10 @@ footer .name h2 {
 .avatar img {
   width: 70%;
 }
+/*------------------------------------*/
+/* SECTION-CONTACT */
+/*------------------------------------*/
+
 /*------------------------------------*/
 /* SECTION-PORTFOLIO */
 /*------------------------------------*/
