@@ -1,5 +1,5 @@
 /*------------------------------------*/
-/* MEDIA QUERIES */
+/* FOR BIG SCREEN PHONE AND SMALL TABLETS SIZE */
 /*------------------------------------*/
 @media (min-width: 768px) {
   /*----- Header------------*/
@@ -62,5 +62,57 @@
   }
   .mobile-footer-nav {
     display: none;
+  }
+}
+/*------------------------------------*/
+/* FOR BIG SCREEN PHONE AND SMALL TABLETS SIZE */
+/*------------------------------------*/
+
+@media (min-width: 1024px) {
+  /*----- Header------------*/
+  .name {
+    float: left;
+  }
+  .main-nav {
+    float: right;
+    padding-top: 1.5em;
+  }
+  /*----- Portfolio------------*/
+  .portfolio-item:nth-child(2n + 1) {
+    padding: 0;
+  }
+  .portfolio-item:nth-child(2n) {
+    padding: 0;
+  }
+  .portfolio-item {
+    width: 33.33%;
+    padding: 0 0.4em !important;
+  }
+  /* Trying To Select porfolio item to change padding but not complete yet */
+
+  /* .portfolio-item:nth-child(3n + 2) {
+    border-top: 2px red solid;
+    padding-left: 0.4em;
+  }
+  .portfolio-item:nth-child(3n) {
+    border-top: 2px green solid;
+    padding-right: 0;
+  }
+  .portfolio-item:nth-child(3n + 1) {
+    border-top: 2px blue solid;
+    padding-left: 0;
+  } */
+
+  /*----- Contact------------*/
+  .contact {
+    max-width: 50%;
+    margin: 0 auto;
+  }
+  .contact p {
+    padding: 0.5em 0;
+  }
+  /*----- Footer------------*/
+  .footer-nav {
+    padding-top: 1em;
   }
 }
